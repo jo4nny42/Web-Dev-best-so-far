@@ -1,0 +1,52 @@
+body{
+    background-image: url(Images/glass_buildings_view_from_street_to_sky.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    height:100%;
+    text-transform: uppercase;
+}
+
+nav{
+    min-width:720px;
+    max-height: 100%;
+    background-color: red;
+}
+
+ul{
+    display: flex;
+    float: right; 
+}
+
+ul li{
+    list-style: none;
+    font-size: 20px;
+    transform: rotate(45deg);
+}
+
+li a:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+li a{
+    padding:.10em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+li a:visited{
+    color: purple;
+}
+
+li a:focus{
+    color: rgb(102, 128, 0);
+}
+
+.middle{
+    margin: 0 auto;
+}
+
+.middle h2{
+    justify-content: center;
+    margin:0 auto;
+}
