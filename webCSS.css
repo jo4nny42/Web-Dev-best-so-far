@@ -42,11 +42,34 @@ li a:focus{
     color: rgb(102, 128, 0);
 }
 
-.middle{
-    margin: 0 auto;
+.middleContent{
+    display: inline-block;
+    position: relative;
+    top: 7em;
+    text-align: center;
 }
 
-.middle h2{
-    justify-content: center;
-    margin:0 auto;
+.Buttons{
+    position: absolute;
+    right: 35em;
+    top: 25em;
+    color: white;
+}
+
+.dn{
+    background-color: rgb(43, 136, 212);
+    transition: all 1s ease-in;
+
+}
+
+.dn:hover{
+    background-color: chocolate;
+}
+
+.feats{
+    opacity: 0.4;
+}
+
+.dn, .feats{
+    color: white;
 }
