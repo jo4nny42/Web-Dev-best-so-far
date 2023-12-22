@@ -35,7 +35,7 @@ li a{
 }
 
 li a:visited{
-    color: purple;
+    color: rgb(88, 196, 113);
 }
 
 li a:focus{
@@ -47,29 +47,38 @@ li a:focus{
     position: relative;
     top: 7em;
     text-align: center;
+    color: rgb(126, 29, 29);
 }
 
 .Buttons{
     position: absolute;
     right: 35em;
     top: 25em;
-    color: white;
 }
 
 .dn{
     background-color: rgb(43, 136, 212);
     transition: all 1s ease-in;
+    color: white;
+}
 
+.feats{
+    transition: all 1s ease-in;
+    color: black;
 }
 
 .dn:hover{
     background-color: chocolate;
 }
 
+.feats:hover{
+    opacity: 1;
+}
+
 .feats{
     opacity: 0.4;
 }
 
-.dn, .feats{
-    color: white;
+.dn,.feats{
+    padding: 15px 20px;
 }
