@@ -50,10 +50,18 @@ li a:focus{
     color: rgb(126, 29, 29);
 }
 
+.innerContent h1{
+    color:black;
+}
+
+.middleContent h2{
+    font-size:45px;
+}
+
 .Buttons{
     position: absolute;
-    right: 35em;
-    top: 25em;
+    right: 33em;
+    top: 28em;
 }
 
 .dn{
@@ -79,6 +87,7 @@ li a:focus{
     opacity: 0.4;
 }
 
-.dn,.feats{
-    padding: 15px 20px;
+.dn, .feats{
+    padding: 15px 30px;
+    border-radius:25px;
 }
