@@ -1,7 +1,8 @@
-body{
+html{
     background-image: url(Images/glass_buildings_view_from_street_to_sky.jpg);
-    background-size: cover;
-    background-repeat: repeat;
+}
+
+body{
     height:100%;
     text-transform: uppercase;
 }
@@ -90,4 +91,21 @@ li a:focus{
 .dn, .feats{
     padding: 15px 30px;
     border-radius:25px;
+}
+
+.about{
+    margin: 0 auto;
+}
+
+.about h1{
+    margin: 0 auto;
+    position: absolute;
+    left: 22em;
+    top:25em;
+}
+
+.about h4{
+    position: absolute;
+    left: 20em;
+    top:38em; 
 }
