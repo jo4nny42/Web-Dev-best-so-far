@@ -1,16 +1,14 @@
 body{
-    height:100%;
+    margin: 0;
     text-transform: uppercase;
-}
-
-nav{
-    min-width:720px;
-    max-height: 100%;
 }
 
 ul{
     display: flex;
     float: right; 
+    position: relative;
+    bottom: 2.5em;
+    left: 40em;
 }
 
 ul li{
@@ -23,6 +21,7 @@ li a:hover{
     color: rgb(19, 19, 122);
     cursor: pointer;
     background-color: blueviolet;
+    border-radius: 10px;
 }
 
 li a{
@@ -36,19 +35,25 @@ li a:focus{
 }
 
 .top{
-    background-image: url(Images/Minimalist\ City\ Sunset\ Buildings\ HD\ 4K\ Wallpaper\ #8.1390.mhtml);
-    background-size: auto;
+    background-image: url(Images/photo-1560179707-f14e90ef3623.avif);
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: fixed;
     position: relative;
-    height:500px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
 }
 
-.middleContent{
-    display: inline-block;
-    position: relative;
-    top: 7em;
+.middleContent{  
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
     text-align: center;
-    color: rgb(126, 29, 29);
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
 }
 
 .innerContent h1{
@@ -63,7 +68,7 @@ li a:focus{
 .Buttons{
     position: absolute;
     right: 33em;
-    top: 28em;
+    top:35em;
 }
 
 .dn{
