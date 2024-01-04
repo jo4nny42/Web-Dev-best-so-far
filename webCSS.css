@@ -49,8 +49,8 @@ li a:focus{
 
 .middleContent{  
     position: absolute;
-    top: 50%;
-    bottom: 50%;
+    top: 40%;
+    bottom: 40%;
     text-align: center;
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
@@ -68,7 +68,7 @@ li a:focus{
 .Buttons{
     position: absolute;
     right: 33em;
-    top:35em;
+    top:30em;
 }
 
 .dn{
@@ -99,8 +99,12 @@ li a:focus{
     border-radius:25px;
 }
 
-.about{
+.txt1{
     margin: 0 auto;
+    background-color: rgb(83, 20, 20);
+    z-index: 1;
+    position: relative;
+    top: 30px;
 }
 
 .about h1{
