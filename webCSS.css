@@ -3,6 +3,10 @@ body{
     text-transform: uppercase;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 ul{
     display: flex;
     float: right; 
@@ -134,4 +138,15 @@ li a:hover{
     position: relative;
     float:right;
     bottom: 2em;
+}
+
+.Portfolio{
+    position: relative;
+    top: 20em;
+    left: 34em;
+}
+
+.Portfolio h4{
+    position: absolute;
+    right: 1em;
 }
