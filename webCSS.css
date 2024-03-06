@@ -142,11 +142,22 @@ li a:hover{
 
 .Portfolio{
     position: relative;
-    top: 20em;
+    top: 35em;
     left: 34em;
 }
 
 .Portfolio h4{
     position: absolute;
-    right: 1em;
+    left: -8em;
+}
+
+.collums{
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.multiImage{
+    display: flex;
+    position: relative;
+    bottom: 4em;
 }
